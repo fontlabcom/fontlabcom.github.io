@@ -43,17 +43,6 @@ A customized, slimmed and subset version of Roboto Flex.
 
 - Source: [fontlabcom/flexlab-font-ofl](https://github.com/fontlabcom/flexlab-font-ofl) (OFL-1.1)
 
-## Brand and design
-
-### FontLab design assets
-
-FontLab logos and other brand assets now live in the
-[brand assets catalogue](https://fontlab.dev/Marketing/fl1992mk/brand-assets/),
-with downloads, previews and usage guidelines. The original repository keeps
-redirects for its former pages.
-
-- Source: [fontlabcom/fontlab-design-assets](https://github.com/fontlabcom/fontlab-design-assets)
-
 ## Tools and libraries
 
 ### QtPy
