@@ -1,0 +1,11 @@
+/* this_file: src_docs/md/css/site.css */
+/* Layout for the project cards; colours and components come from fltheme26. */
+.fl-projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+.fl-projects > .du-card { height: 100%; }
+.fl-projects .du-card-body > p { margin: 0 0 0.5rem; }
+.fl-projects .du-card-actions { margin-top: auto; flex-wrap: wrap; }

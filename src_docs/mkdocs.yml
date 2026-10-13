@@ -1,0 +1,64 @@
+# this_file: src_docs/mkdocs.yml
+site_name: FontLab Code
+site_url: https://code.fontlab.com/
+site_description: FontLab's public code, documentation and resources on GitHub.
+repo_url: https://github.com/fontlabcom/fontlabcom.github.io
+repo_name: fontlabcom/fontlabcom.github.io
+edit_uri: edit/main/src_docs/md/
+docs_dir: md
+site_dir: ../docs
+use_directory_urls: true
+copyright: Copyright &copy; FontLab Ltd.
+theme:
+  name: materialx
+  custom_dir: overrides
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.indexes
+    - search.highlight
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: black
+      accent: red
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: black
+      accent: red
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+plugins:
+  - search
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - tables
+  - footnotes
+  - toc:
+      permalink: true
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+nav:
+  - Home: index.md
+  - Projects: projects.md
+  - About: about.md
+extra_css:
+  - https://i.fontlab.com/fltheme26/1.0.0/components.css
+  - https://i.fontlab.com/fltheme26/1.0.0/theme.css
+  - css/site.css
+extra_javascript:
+  - https://i.fontlab.com/fltheme26/1.0.0/basecoat.js
+  - https://i.fontlab.com/fltheme26/1.0.0/theme.js
